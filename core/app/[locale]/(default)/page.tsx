@@ -104,7 +104,7 @@ export default async function Home({ params }: Props) {
         products={streamableNewestProducts}
         title={t('NewestProducts.title')}
       />
-
+      <h1>Test</h1>
       <Stream fallback={null} value={streamableShowNewsletterSignup}>
         {(showNewsletterSignup) => showNewsletterSignup && <Subscribe />}
       </Stream>
